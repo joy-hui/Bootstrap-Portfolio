@@ -95,13 +95,15 @@ p {
 
 .content {
     padding: 80px;
-    height: 700px;
+    /* height: 700px; */
+    height: auto;
     border-color: darkgrey;
     border-bottom: solid;
 }
 
 .sectionHeading {
     text-align: center;
+    margin-top: 30px;
 }
 
 .showsNear {
@@ -115,4 +117,8 @@ p {
 .valueProp {
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.card-img-top{
+    text-align:center;
 }
