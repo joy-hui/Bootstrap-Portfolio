@@ -1,7 +1,7 @@
 /* Text */
 html {
     scroll-behavior: smooth;
-  }
+}
 
 h1,
 h2,
@@ -9,11 +9,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Anton', sans-serif;
+    font-family: 'Anton', sans-serif;
 }
 
 p {
-  font-family: 'Jura', sans-serif;
+    font-family: 'Jura', sans-serif;
 }
 
 
@@ -24,75 +24,95 @@ p {
 .customNav {
     position: fixed;
     width: 100%;
-    background-color:coral!important;
+    background-color: coral !important;
     z-index: 10;
-    
-  }
-  
-  .navbar-nav {
+
+}
+
+.navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
-  }
-  
-  .navbar-brand img {
+}
+
+.navbar-brand img {
     padding-right: 15px;
     width: 65px;
-  }
-  
-  .nav-item {
-    margin: 0px 15px;
-  }
+}
 
-  /* Navigation links */
-  .customNav a {
+.nav-item {
+    margin: 0px 15px;
+}
+
+/* Navigation links */
+.customNav a {
     color: white !important;
-  }
-  
+}
+
 /* Jumbotron  */
+
+.container1{
+        margin-left: 0px !important;
+}
+
 .jumbotron {
     height: calc(100vh - 25px);
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  /* Jumbotron copy */
-  .jumboCopy {
+}
+
+/* Jumbotron copy */
+.jumboCopy {
     width: 70%;
     min-width: 500px;
     max-width: 700px;
     color: white;
     text-align: center;
-  }
+}
 
+.left{
+   width: 30%;
+   margin-right: 0px;
+}
 
-  /* A work section */
-  .sideAccent {
+.right{
+    width: 70%;
+    margin-left: auto;
+   
+}
+
+.loge{
+    height: 250px;
+    width: 250px;
+}
+
+/* A work section */
+.sideAccent {
     background: #007bff;
     width: 10px;
-    
-  }
 
-  .content {
+}
+
+.content {
     padding: 80px;
     height: 700px;
     border-color: darkgrey;
     border-bottom: solid;
-  }
-  
-  .sectionHeading {
+}
+
+.sectionHeading {
     text-align: center;
-  }
-  
-  .showsNear {
+}
+
+.showsNear {
     padding: 0px, 30px, 30px, 30px;
-  }
-  
-  .cardContainer {
+}
+
+.cardContainer {
     text-align: center;
-  }
-  
-  .valueProp {
+}
+
+.valueProp {
     margin-top: 15px;
     margin-bottom: 15px;
-  }
+}
