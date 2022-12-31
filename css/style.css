@@ -16,7 +16,21 @@ p {
     font-family: 'Jura', sans-serif;
 }
 
+li a:hover {
+    color: darkblue;
+}
 
+li a:hover,
+a:focus {
+    color: #007bff;
+}
+
+
+.icons a:hover img {
+    filter: alpha(Opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5
+}
 
 /* Navigation bar */
 
@@ -50,8 +64,8 @@ p {
 
 /* Jumbotron  */
 
-.container1{
-        margin-left: 0px !important;
+.container1 {
+    margin-left: 0px !important;
 }
 
 .jumbotron {
@@ -70,18 +84,18 @@ p {
     text-align: center;
 }
 
-.left{
-   width: 30%;
-   margin-right: 0px;
+.left {
+    width: 30%;
+    margin-right: 0px;
 }
 
-.right{
+.right {
     width: 70%;
     margin-left: auto;
-   
+
 }
 
-.loge{
+.loge {
     height: 250px;
     width: 250px;
 }
@@ -119,6 +133,17 @@ p {
     margin-bottom: 15px;
 }
 
-.card-img-top{
-    text-align:center;
+.card-img-top {
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .left {
+        display: none;
+    }
+
+    .right {
+        margin-left: 80px;
+    }
+
 }
