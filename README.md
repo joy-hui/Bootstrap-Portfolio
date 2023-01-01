@@ -14,8 +14,8 @@ my work experience, and displaying my work in grid. There are three cards that y
 
 
 ## Skill
-my education
+my skill that I want to learn from the bootcamp
 
 ## About
-my skills
+something else about me
 
